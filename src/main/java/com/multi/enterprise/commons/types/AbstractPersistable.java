@@ -19,7 +19,6 @@ public abstract class AbstractPersistable implements Persistable {
 	/**
 	 * @return the id
 	 */
-	@Override
 	public String getId() {
 		return id;
 	}
@@ -28,7 +27,6 @@ public abstract class AbstractPersistable implements Persistable {
 	 * @param id
 	 *            the id to set
 	 */
-	@Override
 	public void setId(String id) {
 		this.id = id;
 	}
@@ -36,7 +34,6 @@ public abstract class AbstractPersistable implements Persistable {
 	/**
 	 * @return the casValue
 	 */
-	@Override
 	public Long getCasValue() {
 		return casValue;
 	}
@@ -45,7 +42,6 @@ public abstract class AbstractPersistable implements Persistable {
 	 * @param casValue
 	 *            the casValue to set
 	 */
-	@Override
 	public void setCasValue(Long casValue) {
 		this.casValue = casValue;
 	}
@@ -53,7 +49,6 @@ public abstract class AbstractPersistable implements Persistable {
 	/**
 	 * @return the createdDate
 	 */
-	@Override
 	public Date getCreatedDate() {
 		return createdDate;
 	}
@@ -62,7 +57,6 @@ public abstract class AbstractPersistable implements Persistable {
 	 * @param createdDate
 	 *            the createdDate to set
 	 */
-	@Override
 	public void setCreatedDate(Date createdDate) {
 		this.createdDate = createdDate;
 	}
@@ -70,7 +64,6 @@ public abstract class AbstractPersistable implements Persistable {
 	/**
 	 * @return the modifiedDate
 	 */
-	@Override
 	public Date getModifiedDate() {
 		return modifiedDate;
 	}
@@ -79,7 +72,6 @@ public abstract class AbstractPersistable implements Persistable {
 	 * @param modifiedDate
 	 *            the modifiedDate to set
 	 */
-	@Override
 	public void setModifiedDate(Date modifiedDate) {
 		this.modifiedDate = modifiedDate;
 	}

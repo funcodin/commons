@@ -186,6 +186,11 @@
 	<version>2.1</version>
 </dependency>
 
+<dependency>
+    <groupId>org.apache.commons</groupId>
+    <artifactId>commons-collections4</artifactId>
+    <version>4.0</version>
+</dependency>
 
 		<dependency>
 			<groupId>junit</groupId>
@@ -198,7 +203,7 @@
 	<build>
 	<plugins>
 		<plugin>
-			<groupId>org.apache.maven.plugin</groupId>
+			<groupId>org.apache.maven.plugins</groupId>
 			<artifactId>maven-compiler-plugin</artifactId>
 			<version>3.1</version>
 			<configuration>
